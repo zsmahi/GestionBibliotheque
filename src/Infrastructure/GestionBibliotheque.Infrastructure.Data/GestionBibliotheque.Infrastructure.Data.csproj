@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\GestionBibliotheque.Core.Entities\GestionBibliotheque.Core.Entities.csproj" />
+    <ProjectReference Include="..\..\Core\GestionBibliotheque.Core.Exceptions\GestionBibliotheque.Core.Exceptions.csproj" />
+    <ProjectReference Include="..\..\Core\GestionBibliotheque.Core.Interfaces\GestionBibliotheque.Core.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
